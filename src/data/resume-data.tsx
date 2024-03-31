@@ -103,6 +103,20 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Weekly Menu",
+      techStack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React+Vite",
+      ],
+      description: "Weekly Pescetarian Menu ",
+      link: {
+        label: "github.com",
+        href: "ursulacubilla.github.io/Menu-Semanal/",
+      },
+    },
+    {
       title: "YardSale",
       techStack: [
         "HTML",
