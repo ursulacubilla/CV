@@ -76,7 +76,7 @@ jobs:
       - name: Build and Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: "Prepare assets"
-        run: "mkdir build/server/app/_next/static/ && mv build/static/* build/server/app/_next/static/"
+        run: "mkdir build/server/app/_next/static/ -p && mv build/static/* build/server/app/_next/static/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
